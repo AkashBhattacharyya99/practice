@@ -1,0 +1,74 @@
+
+.wrapperr{
+	width: 93%;
+	height: 41%;
+	margin: 5px auto;
+	border-radius: 18px;
+	/* border: 1px solid rgb(20, 19, 19); */
+	background-color: white;
+	
+	
+	
+}
+.coverr{
+	height: 112px;
+	
+}
+.coverr > img{
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+}
+.id-sectionn{
+	height: 200px;
+}
+
+.circlee{
+	width:150px;
+	height: 15px;
+	margin: auto;
+	border-radius: 50%;
+	/* border: 1px solid gray; */
+	position: relative;
+	top: -70px;
+	left: 20px;
+	
+}
+.logoo{
+	width: 104px;
+	height: 104px;
+	margin: auto;
+	border-radius: 50%;
+}
+.logoo > img{
+
+	border-radius: 50%;
+}
+.ids{
+	position: relative;
+	top: 30px;
+	margin: auto auto;
+	text-align: center;
+	font-size: 10px;
+}
+
+.pro-post{
+	width: 200px;
+	display: flex;
+	text-align: center;
+	margin: auto;
+	
+}
+.profile{
+width: 100px;
+margin: 5px 3px;
+
+
+}
+.Acc_post{
+	width: 100px;
+	margin: 5px 3px;
+
+}

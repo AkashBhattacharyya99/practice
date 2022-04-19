@@ -1,0 +1,95 @@
+
+
+.feed-find-friend-container{
+	margin: 30px 34px;
+    
+}
+.find-friend-container{
+	width: 400px;
+	height: 70vh;
+	box-shadow: 5px 5px 20px #252526;
+	margin-top: 50px;
+	margin-left: rem;
+	
+
+}
+.find-friend-header{
+	background: rgb(202, 206, 220);
+}
+.find-friend-header .heading{
+	display: flex;
+	color: black;
+	font-size: 18px;
+	font-weight: 500;
+	width: 100%;
+	/* text-align: center; */
+	padding: 15px 5px;
+	
+	justify-content: space-between;
+}
+.Sidebar_Sericon{
+	padding-right: 14px;
+}
+.find-friend-header .search{
+	position: relative;
+}
+
+.find-friend-header .Search input{
+	border: none;
+	outline: none;
+	margin: 0 25px 25px 25px;
+	width: calc(100% - 150px);
+	font-weight: 1px;
+	color: #D0E7F8;
+	background-color: rgb(255, 255, 255, 0.1);
+	padding: 15px 50px;
+	border-radius: 40px;
+}
+.find-friend-header .search input::placeholder{
+	color: rgba(255, 255, 255, 0.5);
+}
+.find-friend-header .Search img{
+	position: absolute;
+	width: 20px;
+	top: 15px;
+	left: 40px;
+}
+
+.find-friend-body{
+	background-color: #e6ecf0;
+	padding: 8px 3px;
+	align-items: center;
+}
+.find-friend-body .user-row{
+	padding: 7px 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.find-friend-body .user-row .user-info{
+	display: flex;
+	align-items: center;
+}
+.find-friend-body > .user-row > .user-info > img{
+	height: 32px;
+    width: 33px;
+	border-radius: 50%;
+	margin-right: 8px;
+}
+.find-friend-body .user-row .user-info span{
+	color: black;
+	font-weight: bold;
+	font-size: 13px;
+}
+.find-friend-body .user-row .action-follow{
+	border: none;
+	outline: none;
+	background-color: #e6ecf0;
+	border-radius: 40px;
+	color: rgb(53, 53, 232);
+	height: 30px;
+	width: 60px;
+	cursor: pointer;
+	
+}
+
